@@ -5935,6 +5935,7 @@ __metadata:
     "@supabase/supabase-js": 1.35.3
     "@types/netlify-identity-widget": 1.9.3
     "@types/react": 17.0.45
+    amazon-cognito-identity-js: "5.2.9"
     core-js: 3.22.8
     firebase: 9.8.2
     firebase-admin: 10.2.0
@@ -9913,6 +9914,19 @@ __metadata:
   bin:
     all-contributors: dist/cli.js
   checksum: e52c5355836a35ed65a1c9a7699922e2d6afea9053d17304bad5f3b35bd2f8f67e3e93091f46b05e2e723e848f2ae9995f8aed3f4ba3f9f427c29c7c71323498
+  languageName: node
+  linkType: hard
+
+"amazon-cognito-identity-js@npm:":
+  version: 5.2.9
+  resolution: "amazon-cognito-identity-js@npm:5.2.9"
+  dependencies:
+    buffer: 4.9.2
+    crypto-js: ^4.1.1
+    fast-base64-decode: ^1.0.0
+    isomorphic-unfetch: ^3.0.0
+    js-cookie: ^2.2.1
+  checksum: e283f70a781451a9b0bd27fc5a983e3e4db02cff75f1443f89409890ac817153bb490b5e50ad5db2068053ca1a2d089efb5ddd603b9d2f719527c89476d1b84b
   languageName: node
   linkType: hard
 
@@ -15983,6 +15997,13 @@ __metadata:
   version: 1.4.1
   resolution: "extsprintf@npm:1.4.1"
   checksum: e10e2769985d0e9b6c7199b053a9957589d02e84de42832c295798cb422a025e6d4a92e0259c1fb4d07090f5bfde6b55fd9f880ac5855bd61d775f8ab75a7ab0
+  languageName: node
+  linkType: hard
+
+"fast-base64-decode@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "fast-base64-decode@npm:1.0.0"
+  checksum: 6d8feab513222a463d1cb58d24e04d2e04b0791ac6559861f99543daaa590e2636d040d611b40a50799bfb5c5304265d05e3658b5adf6b841a50ef6bf833d821
   languageName: node
   linkType: hard
 
